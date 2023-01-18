@@ -25,32 +25,32 @@ Read the output. Read the code.
 Try to figure out what's going on. 
 
 1. What libraries did we import?
-   sqlite3
-   time
-   multiprocessing
-   os
-   datetime
-   platform
+   sqlite3,
+   time,
+   multiprocessing,
+   os,
+   datetime,
+   platform,
    sys
 1. Where do we set the task_duration?
-    We set the task_duration right after we import the libraries
+    We set the task_duration right after we imported the libraries
 1. How many functions are defined? 
     There are 7 functions defined
 1. What are the function names? 
-    create_table
-    drop_table
-    insert_pet
-    process_one
-    process_two
-    process_three
+    create_table,
+    drop_table,
+    insert_pet,
+    process_one,
+    process_two,
+    process_three,
     recreate_database
 1. In general, what does each function do? 
-    create_table: connects database and creates table
-    drop_table: drops a table if DB already exists
-    insert_pet: prints a few statements and inserts data into table
-    process_one: holds Ace and Buddy the dogs
-    process_two: holds Cooper the rabbit and Dufus the dog
-    process_three: holds Emma the rabbit and Felix the cat
+    create_table: connects database and creates table,
+    drop_table: drops a table if DB already exists,
+    insert_pet: prints a few statements and inserts data into table,
+    process_one: holds Ace and Buddy the dogs,
+    process_two: holds Cooper the rabbit and Dufus the dog,
+    process_three: holds Emma the rabbit and Felix the cat,
     recreate_database: Deletes table pets and recreates it
 
 1. Where does the execution begin?
@@ -122,7 +122,9 @@ Python has pretty helpful error messages.
 When you get an error, read them carefully. 
 
 - What error do you get?
+    I got a Database is Locked Error when running the script with the duration set to 3
 - Can you tell what line it was executing when it failed?
+    It appears to have been trying to run the "execute" line for process 3 when it became an error
 
 
 ## Database Is Locked Error
