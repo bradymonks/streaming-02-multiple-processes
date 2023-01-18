@@ -1,0 +1,10 @@
+Sent: b'[12., The Godfather: Part II, (1974), R, 202 min,Crime, Drama,9,1,273,349,$57.30M]' on port 9999.      
+Sent: b'[13., Aliens, (1986), R, 137 min,Action, Adventure, Sci-Fi,8.4,720,623,$85.16M]' on port 9999.Sent: b"[14., Schindler's List, (1993), R, 195 min,Biography, Drama, History,9,1,357,621,$96.90M]" on port 9999.Sent: b'[15., Inception, (2010), PG-13, 148 min,Action, Adventure, Sci-Fi,8.8,2,356,293,$292.58M]' on port 9999.
+Sent: b'[16., The Lord of the Rings: The Fellowship of the Ring, (2001), PG-13, 178 min,Action, Adventure, Drama,8.8,1,878,557,$315.54M]' on port 9999.Sent: b'[17., Alien, (1979), R, 117 min,Horror, Sci-Fi,8.5,885,635,$78.90M]' on port 9999.Sent: b'[18., Some Like It Hot, (1959), Passed, 121 min,Comedy, Music, Romance,8.2,269,346,$25.00M]' on port 9999.
+Sent: b'[19., Blade Runner, (1982), R, 117 min,Action, Drama, Sci-Fi,8.1,773,425,$32.87M]' on port 9999.       
+Sent: b'[2., The Silence of the Lambs, (1991), R, 118 min,Crime, Drama, Thriller,8.6,1,435,344,$130.74M]' on port 9999.
+Sent: b'[20., Se7en, (1995), R, 127 min,Crime, Drama, Mystery,8.6,1,655,745,$100.13M]' on port 9999.
+Sent: b'[21., Apocalypse Now, (1979), R, 147 min,Drama, Mystery, War,8.5,669,994,$83.47M]' on port 9999.
+Sent: b'[22., 12 Angry Men, (1957), Approved, 96 min,Crime, Drama,9,792,729,$4.36M]' on port 9999.
+Sent: b'[23., The Lord of the Rings: The Two Towers, (2002), PG-13, 179 min,Action, Adventure, Drama,8.8,1,669,715,$342.55M]' on port 9999.
+Sent: b'[24., Terminator 2: Judgment Day, (1991), R, 137 min,Action, Sci-Fi,8.6,1,101,850,$204.84M]' on port 9999.
