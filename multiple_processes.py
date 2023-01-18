@@ -112,7 +112,7 @@ def process_three():
 
 def recreate_database():
     drop_table()
-    print("DELETED tabble pets.")
+    print("DELETED table pets.")
     create_table()
     print("CREATED table pets.")
     print()
