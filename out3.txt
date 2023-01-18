@@ -5,3 +5,53 @@ This will clear the console output.
 Run the file once while the tasks are longer. 
 
 Copy and paste the terminal results (when task_duration is 3) here.
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\brady\OneDrive\Desktop\NWMSU\StreamingData\Module 2\streaming-02-multiple-processes>C:/Users/brady/anaconda/Scripts/activate.bat
+
+(base) C:\Users\brady\OneDrive\Desktop\NWMSU\StreamingData\Module 2\streaming-02-multiple-processes>C:/Users/brady/anaconda/python.exe "c:/Users/brady/OneDrive/Desktop/NWMSU/StreamingData/Module 2/streaming-02-multiple-processes/multiple_processes.py"
+
+
+STARTING UP.............................
+It's 2023-01-18 at 02:42 PM
+
+This file is running on:    nt Windows 10
+The Python version is:      3.8.5
+
+The Python interpreter is at:
+ C:\Users\brady\anaconda\python.exe
+
+
+DELETED table pets.
+CREATED table pets.
+
+P1 getting ready to insert Ace the Dog.
+P1 ADDED Ace the Dog.
+P2 getting ready to insert Cooper the Rabbit.
+P3 getting ready to insert Emma the Rabbit.
+P1 getting ready to insert Buddy the Dog.
+P1 ADDED Buddy the Dog.
+Process Process-3:
+Traceback (most recent call last):
+  File "C:\Users\brady\anaconda\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\brady\anaconda\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\Users\brady\OneDrive\Desktop\NWMSU\StreamingData\Module 2\streaming-02-multiple-processes\multiple_processes.py", line 110, in process_three
+    insert_pet("P3","Emma", "Rabbit")
+  File "c:\Users\brady\OneDrive\Desktop\NWMSU\StreamingData\Module 2\streaming-02-multiple-processes\multiple_processes.py", line 95, in insert_pet
+    cur.execute(sql)
+sqlite3.OperationalError: database is locked
+Process Process-2:
+Traceback (most recent call last):
+  File "C:\Users\brady\anaconda\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\brady\anaconda\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\Users\brady\OneDrive\Desktop\NWMSU\StreamingData\Module 2\streaming-02-multiple-processes\multiple_processes.py", line 106, in process_two
+    insert_pet("P2", "Cooper", "Rabbit")
+2\streaming-02-multiple-processes\multiple_processes.py", line 95, in insert_pet    cur.execute(sql)
+sqlite3.OperationalError: database is locked

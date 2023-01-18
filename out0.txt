@@ -5,3 +5,46 @@ This will clear the console output.
 Run the file once while the tasks are short. 
 
 Copy and paste the terminal results (when task_duration is 0) here.
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\brady\OneDrive\Desktop\NWMSU\StreamingData\Module 2\streaming-02-multiple-processes>C:/Users/brady/anaconda/Scripts/activate.bat
+
+(base) C:\Users\brady\OneDrive\Desktop\NWMSU\StreamingData\Module 2\streaming-02-multiple-processes>C:/Users/brady/anaconda/python.exe "c:/Users/brady/OneDrive/Desktop/NWMSU/StreamingData/Module 2/streaming-02-multiple-processes/multiple_processes.py"   
+
+
+STARTING UP.............................
+It's 2023-01-18 at 02:43 PM
+
+This file is running on:    nt Windows 10
+The Python version is:      3.8.5
+
+The Python interpreter is at:
+ C:\Users\brady\anaconda\python.exe
+
+
+DELETED table pets.
+CREATED table pets.
+
+P1 getting ready to insert Ace the Dog.
+P1 ADDED Ace the Dog.
+P3 getting ready to insert Emma the Rabbit.
+P2 getting ready to insert Cooper the Rabbit.
+P1 getting ready to insert Buddy the Dog.
+P3 ADDED Emma the Rabbit.
+P3 getting ready to insert Felix the Cat.
+P3 ADDED Felix the Cat.
+P1 ADDED Buddy the Dog.
+P2 ADDED Cooper the Rabbit.
+P2 getting ready to insert Dufus the Dog.
+P2 ADDED Dufus the Dog.
+
+SUCCESS! All processes are done.
+Now - increase the task duration (representing
+      the time the task has the database
+      tied up during an insert statement).
+How well do the multiple, concurrent processes share a database
+when each task can take more time?
+How can we let multiple processes share a resource
+without interfering with each other?
